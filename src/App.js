@@ -14,6 +14,7 @@ import OrderDetails from './admin/OrderDetails';
 import AdminProductsPage from './admin/AdminProductsPage';
 import ProductDetails from './product-component/ProductDetails';
 import OrderStatus from './product-component/OrderStatus';
+import OrderConfirmation from './payment-component/ConfirmationPage';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
             <Route path="/admin/products" element={<AdminProductsPage />} />
             <Route path="/product/:productId" element={<ProductDetails />} />
             <Route path="/order/status" element={<OrderStatus />} />
+            <Route path="/order-confirmation" element={<OrderConfirmation />} />
           </Routes>
         </div>
       </CartProvider>

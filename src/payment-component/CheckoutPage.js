@@ -57,7 +57,7 @@ function CheckoutPage() {
             console.error('Error placing order:', error);
         }
     }
-  };
+};
 
   return (
     <form className="checkout-page" onSubmit={handleSubmit}>
