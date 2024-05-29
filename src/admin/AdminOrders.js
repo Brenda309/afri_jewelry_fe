@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 function AdminPage() {
   const [orders, setOrders] = useState([]);
@@ -57,6 +58,10 @@ function AdminPage() {
   return (
     <div className="admin-page">
       <h2>Order Management</h2>
+      <Link to="/admin/products" className="add-product-link">
+        <button>Add More Product</button>
+      </Link>
+
       <table className="orders-table">
         <thead>
           <tr>

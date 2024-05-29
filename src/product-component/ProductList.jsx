@@ -42,7 +42,13 @@ const ProductList = () => {
 
   return (
     <div style={styles.container}>
-      <h2>Products</h2>
+      <header style={styles.header}>
+        <h1>Discover the Beauty of African Art</h1>
+        <p>
+          African art is a diverse and vibrant expression of the rich cultural heritage of the continent.
+        </p>
+      </header>
+      <h2>Arts</h2>
       <div style={styles.cardContainer}>
         {currentProducts.map(product => (
           <div key={product.id} style={styles.card}>

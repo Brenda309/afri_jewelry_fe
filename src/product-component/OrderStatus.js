@@ -65,7 +65,7 @@ function OrderStatus() {
             <th>Product Name</th>
             <th>Quantity</th>
             <th>Status</th>
-            <th>Update Status</th>
+            {/* <th>Update Status</th> */}
           </tr>
         </thead>
         <tbody>
@@ -77,7 +77,7 @@ function OrderStatus() {
                   <td>{item.product.name}</td>
                   <td>{item.quantity}</td>
                   <td>{order.status}</td>
-                  <td>
+                  {/* <td>
                     <select
                       value={statusUpdate[order.id] || order.status}
                       onChange={(e) => handleStatusChange(order.id, e.target.value)}
@@ -88,7 +88,7 @@ function OrderStatus() {
                       <option value="canceled">Canceled</option>
                     </select>
                     <button onClick={() => updateOrderStatus(order.id)}>Update</button>
-                  </td>
+                  </td> */}
                 </tr>
               ))}
             </React.Fragment>
