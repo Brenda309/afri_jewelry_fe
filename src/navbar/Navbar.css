@@ -1,0 +1,63 @@
+ /* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #CDC6C3;
+    color: white;
+  }
+  
+  .navbar-left .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 40px; /* Adjust the height as needed */
+    width: 150px;
+  }
+  
+  .navbar-center .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-center .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .cart-icon {
+    position: relative;
+    color: #924930;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: rgb(227, 91, 91);
+    color: white;
+    border-radius: 50%;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+  }
+  
+  .user-icon {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .user-icon i, .cart-icon i {
+    font-size: 1.5rem;
+  }
+  

@@ -1,0 +1,32 @@
+/* src/App.css */
+.admin-page {
+    padding: 2rem;
+  }
+  
+  .products-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  .products-table th, .products-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .products-table th {
+    background-color: #f4f4f4;
+  }
+  
+  form {
+    margin-bottom: 2rem;
+  }
+  
+  form input {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+  }
+  

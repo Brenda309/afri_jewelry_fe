@@ -1,0 +1,14 @@
+/* PaymentInfo.css */
+.payment-info {
+    width: 100%;
+  }
+  
+  .payment-info h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  

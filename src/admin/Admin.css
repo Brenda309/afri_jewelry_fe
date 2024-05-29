@@ -1,0 +1,25 @@
+/* App.css */
+.admin-page {
+    padding: 2rem;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .orders-table th, .orders-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .orders-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .orders-table select, .orders-table button {
+    margin-left: 0.5rem;
+  }
+  
